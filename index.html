@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Youtube Page</title>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+        integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="main.js" defer></script>
+</head>
+<body>
+<!--HEADER-->
+<header>
+  <div class="header__logo">
+    <i class="fab fa-youtube"></i>
+    <span>Youtube</span>
+  </div>
+  <div class="header__icons">
+    <i class="fas fa-search"></i>
+    <i class="fas fa-ellipsis-v"></i>
+  </div>
+</header>
+
+<!--VIEW-->
+<section class="player">
+  <video src="video/Apple.mp4" controls></video>
+</section>
+
+<!--반응형을 위한 상위묶음 -->
+<div class="infoAndUpNext">
+<!--  Video Info-->
+  <section class="info">
+    <!--    meta-->
+    <div class="metadata">
+      <ul class="hashtags">
+        <li>#Donghwi WEB</li>
+        <li>#Apple</li>
+        <li>#fruit</li>
+      </ul>
+
+      <div class="titleAndButton">
+        <span class="title clamp">
+        >Clone Coding : Youtube Mobile Website | Front-END :HTML, CSS, JavaScript -> ~Study~
+        </span>
+        <button class="moreBtn">
+          <i class="fas fa-caret-down"></i>
+        </button>
+      </div>
+
+      <span class="views">1M views month ago</span>
+    </div>
+    <!--    action-->
+    <ul class="actions">
+      <li>
+        <button><i class="fas fa-thumbs-up active"></i><span>1K</span></button>
+      </li>
+      <li>
+        <button><i class="fas fa-thumbs-down"></i><span>3</span></button>
+      </li>
+      <li>
+        <button><i class="fas fa-share"></i><span>Share</span></button>
+      </li>
+      <li>
+        <button><i class="fas fa-plus"></i><span>Save</span></button>
+      </li>
+      <li>
+        <button><i class="fab fa-font-awesome-flag"></i><span>Report</span></button>
+      </li>
+    </ul>
+    <!--    channel-->
+    <div class="channel">
+      <div class="metadata">
+        <img src="image/nalla.jpg" alt="">
+        <div class="information">
+          <span class="name">Donghwi WEB</span>
+          <span class="subscribers">1M subscribers</span>
+        </div>
+      </div>
+      <button class="subscribe">subscribe</button>
+    </div>
+  </section>
+<!--  Up Next-->
+  <section class="upNext">
+    <span class="up_title">Up Next</span>
+    <ul>
+
+      <li class="item">
+        <div class="img">
+          <img src="image/1.jpg" alt="">
+        </div>
+        <div class="info">
+          <span class="title">Delicious strawberry</span>
+          <span class="name">Donghwi WEB</span>
+          <span class="views">48K views</span>
+        </div>
+        <button class="moreBtn">
+          <i class="fas fa-ellipsis-v"></i>
+        </button>
+      </li>
+
+      <li class="item">
+        <div class="img">
+          <img src="image/2.jpg" alt="">
+        </div>
+        <div class="info">
+          <span class="title">Delicious pizza</span>
+          <span class="name">Donghwi WEB</span>
+          <span class="views">76K views</span>
+        </div>
+        <button class="moreBtn">
+          <i class="fas fa-ellipsis-v"></i>
+        </button>
+      </li>
+
+      <li class="item">
+        <div class="img">
+          <img src="image/3.jpg" alt="">
+        </div>
+        <div class="info">
+          <span class="title">Delicious Grilled skewers</span>
+          <span class="name">Donghwi WEB</span>
+          <span class="views">98K views</span>
+        </div>
+        <button class="moreBtn">
+          <i class="fas fa-ellipsis-v"></i>
+        </button>
+      </li>
+
+    </ul>
+  </section>
+</div>
+
+</body>
+</html>
