@@ -8,10 +8,10 @@ mobile first design으로 가장 작은 화면인 모바일에 초점을 맞추�
 
 ### [웹페이지 바로가기](https://wondonghwi.github.io/YouTube_Page_CloneCoding_CSS/)
 
-768px 이하(Tablets + Phones)
+Preview - 768px 이하(Tablets + Phones)
 
 ![](image/768--.PNG)
 
-768px 이상
+Preview - 768px 이상
 
 ![](image/768++.PNG)
